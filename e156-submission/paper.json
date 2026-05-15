@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov Actual-Discipline Repeaters",
+  "slug": "ctgov-actual-discipline-repeaters",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "Which named sponsors fail the CT.gov actual-field discipline test on missing actual completion and actual enrollment fields? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot. We ranked named sponsors with at least 100 older studies by any actual-field gap, then compared rate outliers, sponsor-class rates, and counts across actual completion and actual enrollment fields. Boehringer Ingelheim carried the largest actual-discipline stock at 943 studies, followed by NCI at 615 and Novartis Pharmaceuticals at 292. Gynecologic Oncology Group had the sharpest large-sponsor actual-discipline rate at 83.8 percent, while NIH and NETWORK were highest among sponsor classes at 24.5 and 23.4 percent. The actual-field problem is not cosmetic because it obscures whether closed studies reported real completion timing and realized sample size with the discipline expected from mature trial records. These counts reflect missing registry fields among older closed studies and do not by themselves establish rule violations or intentional concealment.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Which named sponsors fail the CT.gov actual-field discipline test on missing actual completion and actual enrollment fields?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot."
+    },
+    {
+      "role": "Method",
+      "text": "We ranked named sponsors with at least 100 older studies by any actual-field gap, then compared rate outliers, sponsor-class rates, and counts across actual completion and actual enrollment fields."
+    },
+    {
+      "role": "Primary result",
+      "text": "Boehringer Ingelheim carried the largest actual-discipline stock at 943 studies, followed by NCI at 615 and Novartis Pharmaceuticals at 292."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Gynecologic Oncology Group had the sharpest large-sponsor actual-discipline rate at 83.8 percent, while NIH and NETWORK were highest among sponsor classes at 24.5 and 23.4 percent."
+    },
+    {
+      "role": "Interpretation",
+      "text": "The actual-field problem is not cosmetic because it obscures whether closed studies reported real completion timing and realized sample size with the discipline expected from mature trial records."
+    },
+    {
+      "role": "Boundary",
+      "text": "These counts reflect missing registry fields among older closed studies and do not by themselves establish rule violations or intentional concealment."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Actual-Discipline Repeaters dashboard",
+    "data": "249,507 eligible older closed interventional studies with actual-field discipline fields derived from missing actual completion and actual enrollment markers",
+    "code": "https://github.com/mahmood726-cyber/ctgov-actual-discipline-repeaters",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "Any actual-field gap stock and rate among named lead sponsors with at least 100 older studies",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": false,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
